@@ -1,0 +1,331 @@
+a {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+body {
+    background: #fff;
+    position: relative;
+    padding: 0;
+}
+
+.maintitle {
+    /* Новости культуры */
+    position: relative;
+    text-align: center;
+    padding: 50px 0 0 0;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    /* identical to box height */
+    letter-spacing: 1px;
+    /* черный */
+    color: #000000;
+}
+
+.menu {
+    width: 95%;
+    height: 18px;
+    display: table;
+    padding-top: 2%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #000000;
+}
+
+.menu-item {
+    height: 18px;
+    display: table-cell;
+    position: relative;
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.nomorewidth {
+    min-width: 1000;
+    position: relative;
+}
+
+.mainimage {
+    background: url(img/Hotel-11.jpg);
+    width: 100%;
+    height: 464px;
+    margin-top: 60px;
+}
+
+.logo {
+    position: relative;
+    left: 50%;
+    top: 50px;
+    width: 55px;
+}
+
+.ad-title {
+    position: relative;
+    width: 752px;
+    height: 80px;
+    left: 344px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.ad-title a {
+    color: #FFFFFF !important;
+}
+
+.ad-title a:hover {
+    color: #FF7931 !important; 
+}
+
+.ad-description {
+    position: relative;
+    width: 456px;
+    height: 64px;
+    left: 492px;
+    padding-top: 5%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section-header {
+    position: relative;
+    height: 20px;
+    top: 26px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: uppercase;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #000000;
+}
+
+.reviews {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-around;
+}
+
+.review {
+    width: 370px;
+    margin: auto;
+}
+
+.review-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+}
+
+.review-title-orange {
+    color: #FF7931;
+}
+
+.review {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: -15px;
+}
+
+.abonements {
+    display: flex;
+    height: 556px;
+    background: #f7f7f7;
+    margin-top: 70px;
+}
+
+.abonements-bg {
+    position: relative;
+    background-image: url(img/ellipse%201.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 707px;
+    height: 707px;
+    margin: auto;
+    border-radius: 50%;
+    top: -75px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.header-abons {
+    margin-top: 80px;
+}
+
+
+
+div .line {
+    width: 100px;
+}
+
+.line {
+    opacity: 0.4;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 25px auto auto auto;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.abons-center {
+    display: flex;
+    flex-wrap: wrap;
+    width: 370px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.button {
+    position: relative;
+    display: flex;
+    width: 170px;
+    height: 47px;
+    background: #FF7931;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+
+.review-title:first-child {
+    margin-top: 50px;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+.footer {
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    min-height: 295px;
+    width: 100%;
+    background-color: #575757;
+    color: #FFFFFF;
+}
+
+.footertitle {
+    display: inline-block;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    margin: 30px auto 0 auto;
+    width: 100%;
+}
+
+.menu2 ul {
+    display: flex;
+    width: 95%;
+    height: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+.menu2 a {
+    color: white !important;
+}
+
+.footer-line {
+    text-align: center;
+    margin-top: 36px;
+    width: 90%;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+
+.icons {
+    width: 160px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 30px auto;
+
+}
+
+.footer-icon {
+    width: 47px;
+    height: 47px;
+    background-color: white;
+
+}
+
+.footer-icon img {
+    position: relative;
+    top: 12px;
+}
+
+.menu-item a:hover {
+    color: #FF7931 !important;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.footer-icon:hover {
+    background-color: #FF7931;
+}
+
+.review-title a:hover {
+    color: #FF7931 !important;
+}
